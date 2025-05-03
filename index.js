@@ -11,7 +11,7 @@ console.log('calledddd');
 
 
 app.use(cors({
-  origin: 'https://frontend-reat-dev.vercel.app/',
+  origin: 'https://frontend-reat-dev.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
   credentials: true
 }));

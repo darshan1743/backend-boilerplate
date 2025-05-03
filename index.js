@@ -7,7 +7,8 @@ dotenv.config();
 connectDB();
 
 const app = express();
-https://frontend-reat-dev.vercel.app/
+console.log('calledddd');
+
 
 app.use(cors({
   origin: 'https://frontend-reat-dev.vercel.app/',
@@ -15,6 +16,7 @@ app.use(cors({
   credentials: true
 }));
 app.use(express.json());
+
 
 app.use('/api/users', require('./routes/userRoutes'));
 
